@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link href="inc/css/bootstrap.min.css" rel="stylesheet">
+		<link href="inc/css/select2.min.css" rel="stylesheet">
+		<link href="inc/css/main.css" rel="stylesheet">
+
+    <title>Test</title>
+	</head>
+	<body>
+		
+		<div class="page-wrapper">
+			<div class="widjet-area">
+				<div class="widjet-area-step-1">
+					<h2>Выберите кто проходит тест</h2>
+					<div class="select-box">
+						<select name="test-member" class="select wide">
+							<option value="">Выберите участника</option>
+						</select>
+					</div>
+					<button class="test-init btn btn-md mt-4 btn-primary">Начать тест</button>
+				</div>
+				<div class="widjet-area-step-2 hidden">
+					<div class="test-title">
+						<div class="test-fio-box"></div>
+						<div class="timer-box"></div>
+					</div>
+					<div class="quest-box">
+						<div class="quest-box-text">
+							На каком языке разоваривают в Англии?
+						</div>
+						<div class="quest-variants-box text">
+							<div class="variant-item">
+								На русском
+							</div>
+							<div class="variant-item">
+								На английском
+							</div>
+							<div class="variant-item">
+								На немецком
+							</div>
+							<div class="variant-item">
+								На французком
+							</div>
+						</div>
+					</div>
+					<button class="btn btn-primary getAnswer">Засчитать и продолжить</button>
+				</div>				
+			</div>
+		</div>
+
+	
+	<script src="inc/js/jquery-3.6.0.min.js"></script>
+	<script src="inc/js/select2.full.min.js"></script>
+	
+	<script src="inc/js/clients.js"></script>
+	<script src="inc/js/test.js"></script>
+	
+	<script src="inc/js/main.js"></script>
+
+	</body>
+</html>
